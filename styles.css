@@ -1,0 +1,29 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo-container > h1 {
+  align-self: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.description {
+  width: 60%;
+  align-self: center;
+  text-align: center;
+}
+
+.logo {
+  height: 350px;
+  align-self: center;
+}
