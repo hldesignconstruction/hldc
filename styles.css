@@ -24,6 +24,21 @@ body {
 }
 
 .logo {
-  height: 350px;
+  width: 450px;
   align-self: center;
 }
+
+@media (max-width: 600px) {
+
+  .logo {
+    width: 300px;
+  }
+
+  .logo-container > h1 {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+} 
